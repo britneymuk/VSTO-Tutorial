@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+	<ribbon>
+		<tabs>
+			<tab id="TabAddIns" label="AddIns" visible="true">
+				<group id="Group1" label="Group1">
+					<button id="Button1" onAction="Button1_Click" label="Test1" showImage="false" />
+				</group>
+			</tab>
+			<tab id="TabDemo" label="Demo" visible="true">
+				<group id="Group2" label="Group2">
+					<button id="Button2" onAction="Button2_Click" label="Write to Cell" showImage="false" />
+				</group>
+				<group id="Group3" label="Group3">
+					<editBox id="EditBox1" sizeString="xxxxx" onChange="EditBox1_TextChanged" label="Client Name" showImage="false" />
+					<button id="Button3" onAction="Button3_Click" label="Export" showImage="false" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
+
